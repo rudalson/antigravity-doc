@@ -12,7 +12,7 @@ path:
 
 새로운 에이전트 대화를 시작할 때, 변경 사항이 제안되고 검토되는 방식을 결정하는 두 가지 주요 실행 모드 중에서 선택할 수 있습니다:
 
-* **Planning Mode**(계획 모드): 에이전트가 작업을 실행하기 전에 철저하게 계획을 세웁니다. 이 모드에서 에이전트는 작업을 [작업 그룹](/docs/task-groups)으로 정리하고, [아티팩트](/docs/artifacts)라고 불리는 구조화된 구현 계획을 수립하며, 최적의 품질을 위해 코드베이스를 철저히 조사합니다.
+* **Planning Mode**(계획 모드): 에이전트가 작업을 실행하기 전에 철저하게 계획을 세웁니다. 이 모드에서 에이전트는 작업을 [작업 그룹](/docs/task-groups)으로 정리하고, [아티팩트](../artifacts/artifacts.md)라고 불리는 구조화된 구현 계획을 수립하며, 최적의 품질을 위해 코드베이스를 철저히 조사합니다.
 * **Fast Mode**(고속 모드): 에이전트가 별도의 계획 수립 단계 없이 작업을 즉시 실행합니다. 변수 이름 변경, 특정 bash 명령 실행, 소규모 리팩터링 등 신속하게 완료할 수 있는 단순하고 고도로 국소적인 작업에 사용하세요.
 
 **Planning Mode**에서 작업할 때, 아티팩트 검토 정책은 코드베이스에 변경 사항을 적용하기 전에 이러한 계획과 상호작용하고 승인하는 방식을 제어합니다.
@@ -29,7 +29,7 @@ path:
 * 이를 통해 제안된 변경 사항을 철저히 검토하고, 인라인 댓글을 작성하며, 워크스페이스에서 계획을 확인할 수 있습니다.
 * 만족스러운 경우 계획을 승인하여 에이전트가 작업을 계속 진행하도록 할 수 있습니다.
 
-![Settings Review Policy Manual](assets/image/docs/agent/settings-review-policy-manual.png)
+![Settings Review Policy Manual](../../.assets/image/settings-review-policy-manual.png)
 
 ### 2. Always Proceed (항상 진행)
 
@@ -38,4 +38,4 @@ path:
 * 에이전트가 검토를 요청하기로 결정하면 즉시 일시 중지를 건너뛰고 구현을 계속 진행합니다.
 * 완전히 자율적인 워크플로우를 원하고 코드가 수정되기 전에 계획을 수동으로 확인할 필요가 없는 경우에 사용하세요.
 
-![Settings Review Policy Proceed](assets/image/docs/agent/settings-review-policy-proceed.png)
+![Settings Review Policy Proceed](../../.assets/image/settings-review-policy-proceed.png)

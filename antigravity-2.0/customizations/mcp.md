@@ -157,19 +157,19 @@ OAuth가 활성화된 서버에 연결할 때:
 1. `Cmd+,` (Mac) 또는 `Ctrl+,` (Windows/Linux) 키를 눌러 **에이전트 설정(Agent Settings)**을 엽니다.
 2. **Customizations**(사용자 정의) 탭으로 이동하여 서버 옆에 있는 **Authenticate**(인증) 버튼을 클릭합니다.
 
-![Click Authenticate](assets/image/docs/tools/mcp-oauth-authenticate.png)
+![Click Authenticate](../../.assets/image/mcp-oauth-authenticate.png)
 
 3. 브라우저에서 인증을 완료하고 승인 코드를 복사합니다.
 
-![Copy authorization code](assets/image/docs/tools/mcp-oauth-copy-code.png)
+![Copy authorization code](../../.assets/image/mcp-oauth-copy-code.png)
 
 4. 코드를 설정 패널에 다시 붙여넣고 **Submit**(제출)을 클릭합니다.
 
-![Paste auth code](assets/image/docs/tools/mcp-oauth-paste-code.png)
+![Paste auth code](../../.assets/image/mcp-oauth-paste-code.png)
 
 인증되면 서버가 자동으로 다시 연결됩니다.
 
-![Authenticated server](assets/image/docs/tools/mcp-oauth-authenticated.png)
+![Authenticated server](../../.assets/image/mcp-oauth-authenticated.png)
 
 액세스 토큰은 `~/.gemini/antigravity/mcp_oauth_tokens.json`에 저장됩니다. 만료된 토큰은 자동으로 갱신되며, 유효하지 않은 토큰은 제거됩니다.
 

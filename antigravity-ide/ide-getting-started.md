@@ -20,4 +20,4 @@ Antigravity IDE를 다운로드하려면 [antigravity.google/download](https://a
 
 애플리케이션은 업데이트가 가능할 때 메시지를 표시합니다.
 
-![업데이트 가능](assets/image/docs/restart-to-update.png)
+![업데이트 가능](../.assets/image/restart-to-update.png)
